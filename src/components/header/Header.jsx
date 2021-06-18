@@ -11,7 +11,8 @@ export default function Header() {
           
           <ul className="nav-list">
             <li className="nav-item"><a href="#work">Work</a></li>
-            <li className="nav-item"><a href="/">About Me</a></li>
+            <li className="nav-item"><a href="#about-me">About Me</a></li>
+            <li className="nav-item"><a href="#skill">Skill</a></li>
             <li className="nav-item"><a href="/">Contact</a></li>
           </ul>
         </div>
