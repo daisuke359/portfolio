@@ -1,0 +1,107 @@
+#contact {
+    background-color: #FFF7F7;
+}
+
+.contact-wrapper {
+    width: 80%;
+    margin: 0 auto 70px;
+}
+
+.contact-main {
+    display: flex;
+    align-items: center;
+}
+
+.contact-main-right {
+    flex: 5;
+    width: 80%;
+}
+
+.contact-main-left {
+    flex: 7;
+}
+
+.contact-desc {
+    color: #3b3b3b;
+    line-height: 1.5;
+}
+
+.contact-icons {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-icons i {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ffcc00;
+}
+
+
+.contact-form {
+    width: 90%;
+    margin: 90px 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.contact-input {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact-input input, .message-input {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid #ffd5d5;
+    font-size: 1.1em;
+}
+
+.contact-input input {
+    padding: 10px;
+}
+
+.contact-input input:focus, .message-input:focus {
+    outline: none;
+}
+
+.message-input {
+    height: 200px;
+}
+
+.contact-btn {
+    display: block;
+    margin: 0 auto 0 0;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.contact-btn:hover {
+    background-color: #ffffff;
+    color: #ffcc00;
+    border-color: gray;
+}
+

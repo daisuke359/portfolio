@@ -30,7 +30,7 @@ header {
   }
   
   .logo-container .fa-github:hover {
-    color: yellow;
+    color: #ffcc00;
   }
   
   .nav-list {
@@ -45,7 +45,7 @@ header {
   }
   
   .nav-item:hover {
-    border-bottom: 2px solid yellow;
+    border-bottom: 2px solid #ffcc00;
   }
   
   .nav-item a {
@@ -59,7 +59,7 @@ header {
   }
   
   .nav-list a:hover {
-    color: yellow;
+    color: #ffcc00;
   }
   
   .header-main {
@@ -99,5 +99,5 @@ header {
   
   .header-btn:hover {
     background-color: #ffffff;
-    color: black;
+    color: #ffcc00;
   }

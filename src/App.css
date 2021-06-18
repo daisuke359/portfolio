@@ -22,14 +22,14 @@ a {
 
 .section-title {
   text-align: center;
-  padding-top: 50px;
+  padding-top: 90px;
   font-size: 1.7em;
 }
 
 .section-title-underline {
   width: 10%;
   margin: 0 auto;
-  border: 2px solid yellow;
+  border: 2px solid #ffcc00;
   margin-top: 30px;
 }
 
