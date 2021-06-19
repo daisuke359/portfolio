@@ -1,10 +1,11 @@
 #contact {
     background-color: #FFF7F7;
+    padding-bottom: 70PX;
 }
 
 .contact-wrapper {
     width: 80%;
-    margin: 0 auto 70px;
+    margin: 0 auto;
 }
 
 .contact-main {
