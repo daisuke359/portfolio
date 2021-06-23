@@ -45,6 +45,7 @@
 
 .skill-logos {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 80px;
     align-items: center;
     justify-content: space-between;
@@ -53,7 +54,7 @@
 .skill-logo-container {
     width: 100%;
     margin: 0 auto;
-    flex: 4;
+    flex: 6;
 }
 
 .skill-logo {

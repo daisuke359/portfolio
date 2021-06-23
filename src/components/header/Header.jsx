@@ -15,6 +15,7 @@ export default function Header() {
             <li className="nav-item"><a href="#skill">Skill</a></li>
             <li className="nav-item"><a href="#contact">Contact</a></li>
           </ul>
+          <i className="fas fa-bars nav-icon"></i>
         </div>
         <div className="header-main">
           <h2 className="header-title">Hi, I'm Daisuke.</h2>
