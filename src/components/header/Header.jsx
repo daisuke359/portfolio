@@ -1,10 +1,12 @@
 import React from 'react';
 import "./header.css";
+import Navbar from '../Nav/Navbar';
 
 export default function Header() {
     return (
         <header>
-        <div className="header-nav">
+          <Navbar/>
+        {/* <div className="header-nav">
           <div className="logo-container">
             <i className="fab fa-github"></i>
           </div>
@@ -16,7 +18,7 @@ export default function Header() {
             <li className="nav-item"><a href="#contact">Contact</a></li>
           </ul>
           <i className="fas fa-bars nav-icon"></i>
-        </div>
+        </div> */}
         <div className="header-main">
           <h2 className="header-title">Hi, I'm Daisuke.</h2>
           <h4 className="header-desc">I'm a front end engineer.</h4>

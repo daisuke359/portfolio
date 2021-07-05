@@ -8,7 +8,7 @@ header {
     padding: 0;
   }
   
-  .header-nav {
+  /* .header-nav {
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -63,9 +63,10 @@ header {
   .nav-icon {
     display: none;
     font-size: 50px;
-  }
+  } */
   
   .header-main {
+    z-index: 1;
     position: absolute;
       width: 70%;
       top: 50%;
