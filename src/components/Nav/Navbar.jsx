@@ -28,16 +28,20 @@ const Nav = styled.div`
   }
 
   @media only screen and (max-width: 1023px) {
-    padding: 20px 60px;
+    padding: 15px 60px;
   }
 
 
   @media only screen and (max-width: 767px) {
-    padding: 20px 40px;
+    padding: 15px 40px;
   }
 
   @media only screen and (max-width: 480px) {
-    padding: 20px 25px;
+    padding: 10px 25px;
+
+    .logo-container .fa-github, .nav-icon {
+      font-size: 40px;
+  }
 }
 `;
 

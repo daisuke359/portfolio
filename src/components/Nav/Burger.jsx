@@ -37,8 +37,16 @@ const StyledBurger = styled.div`
   }
 
   @media only screen and (max-width: 480px) {
+    width: 3rem;
+    height: 2.5rem;
+    top: 10px;
     right: 20px;
-}
+
+    div {
+      width: 2.5rem;
+      height: 0.4rem;
+    }
+  }
 
 `;
 

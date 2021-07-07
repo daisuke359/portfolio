@@ -34,15 +34,13 @@ justify-content: space-between;
     margin-top: 0;
     flex-flow: column;
     justify-content: space-around;
-    background-color: black;
-    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
     height: 100vh;
     width: 100%;
-    padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
 
     .nav-item {
