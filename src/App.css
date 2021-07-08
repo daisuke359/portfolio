@@ -28,6 +28,10 @@ button {
   cursor: pointer;
 }
 
+li {
+  list-style-type: none;
+}
+
 .section-title {
   text-align: center;
   padding-top: 90px;

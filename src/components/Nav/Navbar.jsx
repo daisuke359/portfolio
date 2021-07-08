@@ -8,7 +8,7 @@ const Nav = styled.div`
     opacity: 0.9;
     display: flex;
     align-items: center;
-    padding: 20px 80px;
+    padding: 10px 80px;
     position: fixed;
     top: 0;
     left: 0;
@@ -28,21 +28,22 @@ const Nav = styled.div`
   }
 
   @media only screen and (max-width: 1023px) {
-    padding: 15px 60px;
+    padding: 10px 60px;
   }
 
 
   @media only screen and (max-width: 767px) {
-    padding: 15px 40px;
+    padding: 10px 40px;
+
+    .logo-container .fa-github, .nav-icon {
+      font-size: 40px;
+    }
   }
 
   @media only screen and (max-width: 480px) {
     padding: 10px 25px;
 
-    .logo-container .fa-github, .nav-icon {
-      font-size: 40px;
   }
-}
 `;
 
 export default function Navbar() {

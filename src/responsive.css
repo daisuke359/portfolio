@@ -11,6 +11,11 @@
     .section-title {
         padding-top: 60px;
     }
+
+    .overlay-wrapper {
+        width: 80%;
+    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -32,6 +37,17 @@
 
     .work-wrapper, .about-me-wrapper, .skill-wrapper, .contact-wrapper {
         width: 90%;
+    }
+
+    .overlay {
+        overflow: scroll;
+    }
+
+     .overlay-title {
+        font-size: 20px;
+    }
+    .overlay-desc, .overlay-skill-title, .app-skill, .app-btn {
+        font-size: 0.9em;
     }
 
     .about-me-wrapper {

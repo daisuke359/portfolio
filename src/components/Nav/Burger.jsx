@@ -6,7 +6,7 @@ const StyledBurger = styled.div`
   width: 4rem;
   height: 3rem;
   position: fixed;
-  top: 20px;
+  top: 10px;
   right: 40px;
   z-index: 20;
   display: none;
@@ -36,7 +36,7 @@ const StyledBurger = styled.div`
     }
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 767px) {
     width: 3rem;
     height: 2.5rem;
     top: 10px;
