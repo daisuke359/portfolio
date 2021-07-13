@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Ul = styled.ul`
 list-style-type: none;
@@ -60,10 +61,50 @@ export default function RightNav({open, handleClick}) {
 
     return (
         <Ul open={open}>
-            <li onClick={handleClick} className="nav-item"><a href="#work">Work</a></li>
-            <li onClick={handleClick} className="nav-item"><a href="#about-me">About Me</a></li>
-            <li onClick={handleClick} className="nav-item"><a href="#skill">Skill</a></li>
-            <li onClick={handleClick} className="nav-item"><a href="#contact">Contact</a></li>
+            <li className="nav-item">
+            <Link 
+              onClick={handleClick}
+              activeClass="active"
+              to="work"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >Work</Link>
+            </li>
+            <li className="nav-item">
+            <Link
+              onClick={handleClick} 
+              activeClass="active"
+              to="about-me"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >About Me</Link>
+            </li>
+            <li className="nav-item">
+            <Link
+              onClick={handleClick} 
+              activeClass="active"
+              to="skill"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >Skill</Link>
+            </li>
+            <li className="nav-item">
+            <Link
+              onClick={handleClick} 
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >Contact</Link>
+            </li>
           </Ul>
     )
 }

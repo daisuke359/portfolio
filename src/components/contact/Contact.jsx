@@ -3,7 +3,7 @@ import "./contact.css";
 
 export default function Contact() {
     return (
-        <div id="contact">
+        <section className="contact" id="contact">
             <div className="contact-wrapper">
                 <h3 className="section-title">Contact Me</h3>
                 <hr className="section-title-underline" />
@@ -40,6 +40,6 @@ export default function Contact() {
                 
             </div>
             
-        </div>
+        </section>
     )
 }

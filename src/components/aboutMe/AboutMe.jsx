@@ -3,7 +3,7 @@ import "./aboutMe.css";
 
 export default function AboutMe() {
     return (
-        <div id="about-me">
+        <section className="about-me" id="about-me">
             <div className="about-me-wrapper">
                 <h3 className="section-title">About Me</h3>
                 <hr className="section-title-underline" />
@@ -16,6 +16,6 @@ export default function AboutMe() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

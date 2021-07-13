@@ -12,6 +12,10 @@
         padding-top: 60px;
     }
 
+    .overlay {
+        overflow: scroll;
+    }
+
     .overlay-wrapper {
         width: 80%;
     }
@@ -39,9 +43,6 @@
         width: 90%;
     }
 
-    .overlay {
-        overflow: scroll;
-    }
 
      .overlay-title {
         font-size: 20px;
