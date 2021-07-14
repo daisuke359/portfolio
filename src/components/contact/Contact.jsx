@@ -1,13 +1,31 @@
-import React, { useEffect } from 'react';
+import React, { useEffect} from 'react';
 import "./contact.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import emailjs from "emailjs-com";
 
 export default function Contact() {
 
     useEffect(() => {
         Aos.init({duration: 1000, delay:100});
     }, []);
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_jzpla0q', 'template_qizv0hr', e.target, 'user_H4w6wAqAL5BCX1BQSAOB9')
+        .then((result) => {
+          console.log(result.text);
+          toast("Your message has been sent 💌");
+        }, (error) => {
+          console.log(error.text);
+        });
+        e.target.reset();
+        
+    }
+
 
     return (
         <section className="contact" id="contact">
@@ -28,18 +46,27 @@ export default function Contact() {
                         </div>
                     </div>
                     <div data-aos="fade-left" className="contact-main-left">
-                        <form action="" className="contact-form">
+                        <form onSubmit={sendEmail} action="" className="contact-form">
                             <div className="contact-input">
-                                <input type="text" placeholder="name*" required/>
+                                <input type="text" placeholder="name*" name="from_name" required/>
                             </div>
                             <div className="contact-input">
-                                <input type="email" placeholder="email*" required/>
+                                <input type="email" name="email" placeholder="email*" required/>
                             </div>
                             <div className="contact-input">
-                                <textarea className="message-input" placeholder="message*" required></textarea>
+                                <textarea className="message-input" placeholder="message*" name="message" required></textarea>
                             </div>
-                            <button className="contact-btn">Send Message</button>
-
+                            <button type="submit" className="contact-btn">Send Message</button>
+                            <ToastContainer
+                                position="top-left"
+                                autoClose={5000}
+                                hideProgressBar={false}
+                                newestOnTop={false}
+                                closeOnClick
+                                rtl={false}
+                                pauseOnFocusLoss
+                                draggable
+                                pauseOnHover/>
                         </form>
                     </div>
                 </div>
