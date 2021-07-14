@@ -18,12 +18,12 @@ export default function Skill() {
                     <div data-aos="fade-right" className="skill-main-left">
                         <i className="fas fa-laptop-code skill-icon"></i>
                         <h4 className="skill-title">Web Development</h4>
-                        <p className="skill-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam augue ipsum, sagittis et mollis eget, scelerisque fringill</p>
+                        <p className="skill-desc">I build web applications that are fast, look modern, and function amaizingly.</p>
                     </div>
                     <div data-aos="fade-left" className="skill-main-right">
                         <i className="fas fa-mobile-alt skill-icon"></i>
                         <h4 className="skill-title">Responsive Design</h4>
-                        <p className="skill-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam augue ipsum, sagittis et mollis eget, scelerisque fringill</p>
+                        <p className="skill-desc">My websites will on any devices: phone, tablet, laptop, or even bigger screen.</p>
                     </div>
                 </div>
                 <div data-aos="fade-up" className="skill-logos">
