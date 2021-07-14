@@ -1,25 +1,32 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./skill.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Skill() {
+
+    useEffect(() => {
+        Aos.init({duration: 1000, delay:100});
+    }, []);
+
     return (
         <section className="skill" id="skill">
             <div className="skill-wrapper">
                 <h3 className="section-title">My Skill Set</h3>
                 <hr className="section-title-underline" />
                 <div className="skill-main">
-                    <div className="skill-main-left">
+                    <div data-aos="fade-right" className="skill-main-left">
                         <i className="fas fa-laptop-code skill-icon"></i>
                         <h4 className="skill-title">Web Development</h4>
                         <p className="skill-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam augue ipsum, sagittis et mollis eget, scelerisque fringill</p>
                     </div>
-                    <div className="skill-main-right">
+                    <div data-aos="fade-left" className="skill-main-right">
                         <i className="fas fa-mobile-alt skill-icon"></i>
                         <h4 className="skill-title">Responsive Design</h4>
                         <p className="skill-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam augue ipsum, sagittis et mollis eget, scelerisque fringill</p>
                     </div>
                 </div>
-                <div className="skill-logos">
+                <div data-aos="fade-up" className="skill-logos">
                     <div className="skill-logo-container">
                         <img src="/html5-icon.png" alt="" className="skill-logo-img" /> 
                     </div>

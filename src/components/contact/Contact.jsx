@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./contact.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Contact() {
+
+    useEffect(() => {
+        Aos.init({duration: 1000, delay:100});
+    }, []);
+
     return (
         <section className="contact" id="contact">
             <div className="contact-wrapper">
                 <h3 className="section-title">Contact Me</h3>
                 <hr className="section-title-underline" />
                 <div className="contact-main">
-                    <div className="contact-main-right">
+                    <div data-aos="fade-right" className="contact-main-right">
                         <h4 className="contact-title">Let's Connect!</h4>
                         <p className="contact-desc">
                             Feel free to reach out if you're interested in working together, being friends, or watching MLB games together! All fields are required!
@@ -20,7 +27,7 @@ export default function Contact() {
                             <a href="mailto:dkawabuchi@gmail.com" target="_blank" rel="noreferrer"><i className="fas fa-envelope"></i></a>
                         </div>
                     </div>
-                    <div className="contact-main-left">
+                    <div data-aos="fade-left" className="contact-main-left">
                         <form action="" className="contact-form">
                             <div className="contact-input">
                                 <input type="text" placeholder="name*" required/>

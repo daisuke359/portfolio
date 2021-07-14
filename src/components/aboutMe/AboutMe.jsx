@@ -1,18 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./aboutMe.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function AboutMe() {
+
+    useEffect(() => {
+        Aos.init({duration: 1000, delay:100});
+    }, []);
+
     return (
         <section className="about-me" id="about-me">
             <div className="about-me-wrapper">
                 <h3 className="section-title">About Me</h3>
                 <hr className="section-title-underline" />
                 <div className="about-me-main">
-                    <div className="about-me-left">
+                    <div data-aos="fade-right" className="about-me-left">
                         <img src="/avatar.png" alt="" className="about-img" />
                     </div>
-                    <div className="about-me-right">
-                        <p className="about-me-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam augue ipsum, sagittis et mollis eget, scelerisque fringilla ipsum. Etiam nec libero nisi. Duis condimentum felis sit amet sollicitudin hendrerit. Donec dapibus ex vitae ex efficitur, finibus ultricies dui cursus. Sed laoreet, enim eleifend dictum commodo, magna eros suscipit enim, eu scelerisque lacus lacus a nibh. Vivamus at ligula in ligula </p>
+                    <div data-aos="fade-left" className="about-me-right">
+                        <p className="about-me-desc">My name is Daisuke. I am a Full Stack Web developer based in Vancouver!🌅 I am passionate about <span>creating interactive web applicaitons</span> and <span>engaging user experience</span> using React.</p>
+                        <p className="about-me-desc">I am currently working towards a diploma degree in Computer Studies an Information Systems at Douglas College.💻</p>
+                        <p className="about-me-desc">Other than coding, I spend most of my time exploring the city of Vancouver, shooting photos and videos, and trying out new restaurants around the city! And I'm always down for Ramen🍜</p>
                     </div>
                 </div>
             </div>

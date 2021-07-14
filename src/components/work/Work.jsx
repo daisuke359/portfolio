@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "./work.css";
 import styled from 'styled-components';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const WorkItem = styled.div`
     transition: all 0.3s;
@@ -52,6 +54,10 @@ const AppImg = styled.img`
 
 export default function Work() {
 
+    useEffect(() => {
+        Aos.init({duration: 1000, delay:0});
+    }, []);
+
     return (
         <section className="work" id="work">
             <div className="work-wrapper">
@@ -60,14 +66,14 @@ export default function Work() {
                 <p className="section-desc">Here are the few projects I've worked on recently.</p>
 
                 <div className="work-list">
-                    <WorkItem>
+                    <WorkItem data-aos="fade-up">
                         <AppImg className="app-img" src="/social-app.png" alt="" />
                         
                         <div className="overlay">
                             <div className="overlay-wrapper">
                                 <div className="overlay-main">
                                     <h3 className="overlay-title">Social App</h3>
-                                    <p className="overlay-desc">This is a social media app where you can post your images your thoughts, and follow other users. This is a social media app where you can post your images your thoughts, and follow other users. This is a social media app where you can post your images your thoughts, and follow other users</p>
+                                    <p className="overlay-desc">Social media application built with the MERN stack. It allows you to post text and photos, and follow/unfollow other users. The backend for this app is hosted on Heroku and it may take a few seconds to load! Use yui@gmail.com, and password: 123456 to login.</p>
                                 </div>
                             
 
@@ -95,13 +101,13 @@ export default function Work() {
                         
                     </WorkItem>
 
-                    <WorkItem>
+                    <WorkItem data-aos="fade-up">
                         <AppImg className="app-img" src="./twitter-app.png" alt="" />
                         <div className="overlay">
                             <div className="overlay-wrapper">
                                 <div className="overlay-main">
                                     <h3 className="overlay-title">Twitter tweet search</h3>
-                                    <p className="overlay-desc">This is a social media app where you can post your images your thoughts, and follow other users. This is a social media app where you can post your images your thoughts, and follow other users. This is a social media app where you can post your images your thoughts, and follow other users</p>
+                                    <p className="overlay-desc">This application is using Twitter API v2 to retrieve recent tweets based on your keyword. It also uses pagination to load more tweets on the page. The backend for this app is hosted on Heroku and it may take a few seconds to load!</p>
                                 
                                 </div>
 
