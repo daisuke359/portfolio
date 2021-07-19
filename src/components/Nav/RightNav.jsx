@@ -34,8 +34,8 @@ justify-content: space-between;
       z-index: 10;
     margin-top: 0;
     flex-flow: column;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 1);
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
@@ -49,6 +49,7 @@ justify-content: space-between;
         margin: 0 auto;
         font-size: 2em;
         text-align: center;
+        font-size: 1.3em;
     }
 
   }
