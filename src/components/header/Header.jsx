@@ -2,6 +2,7 @@ import React from 'react';
 import "./header.css";
 import Navbar from '../Nav/Navbar';
 import Typical from "react-typical";
+import { Link } from 'react-scroll';
 
 export default function Header() {
     return (
@@ -20,8 +21,24 @@ export default function Header() {
                 1000
               ]}
             /></h4>
-            <a href="#work"><button className="header-btn">See my work</button></a>
-            <a href="#contact"><button className="header-btn">Get in touch</button></a>
+            <Link 
+              className="header-btn"
+              activeClass="active"
+              to="work"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >See my work</Link>
+            <Link 
+              className="header-btn"
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              >Get in touch</Link>
         </div>
       </header> 
     )

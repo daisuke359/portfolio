@@ -43,6 +43,12 @@
         width: 90%;
     }
 
+    .overlay-wrapper {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
 
      .overlay-title {
         font-size: 20px;
@@ -52,7 +58,7 @@
     }
 
     .about-me-wrapper {
-        margin-bottom: 60px;
+        margin-bottom: 60px;      
     }
 
     .about-me-main {

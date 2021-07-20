@@ -13,7 +13,6 @@ const Nav = styled.div`
     top: 0;
     left: 0;
     right: 0;
-    max-width: 1500px;
     box-sizing: border-box;
     margin: 0 auto;
 
