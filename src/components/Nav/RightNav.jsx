@@ -10,6 +10,7 @@ justify-content: space-between;
 
 .nav-item {
     padding-bottom: 5px;
+    cursor: pointer;
 }
   
   .nav-item:hover {
