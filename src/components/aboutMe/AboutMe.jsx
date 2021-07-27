@@ -19,7 +19,7 @@ export default function AboutMe() {
                         <img src="/avatar.png" alt="" className="about-img" />
                     </div>
                     <div data-aos="fade-left" className="about-me-right">
-                        <p className="about-me-desc">My name is Daisuke. I am a Full Stack Web developer based in Vancouver!🌅 I am passionate about <span>creating interactive web applicaitons</span> and <span>engaging user experience</span> using React.</p>
+                        <p className="about-me-desc">My name is Daisuke. I am a Front-End Web developer based in Vancouver!🌅 I am passionate about <span>creating interactive web applicaitons and engaging user experience</span> using React.</p>
                         <p className="about-me-desc">I am currently working towards a diploma degree in Computer Studies an Information Systems at Douglas College.💻</p>
                         <p className="about-me-desc">Other than coding, I spend most of my time exploring the city of Vancouver, shooting photos and videos, and trying out new restaurants around the city! And I'm always down for Ramen🍜</p>
                     </div>
