@@ -102,28 +102,28 @@ export default function Work() {
                     </WorkItem>
 
                     <WorkItem data-aos="fade-up">
-                        <AppImg className="app-img" src="./twitter-app.png" alt="" />
+                        <AppImg className="app-img" src="/coin-dev.png" alt="" />
                         <div className="overlay">
                             <div className="overlay-wrapper">
                                 <div className="overlay-main">
-                                    <h3 className="overlay-title">Twitter tweet search</h3>
-                                    <p className="overlay-desc">This application is using Twitter API v2 to retrieve recent tweets based on your keyword. It also uses pagination to load more tweets on the page. The backend for this app is hosted on Heroku and it may take a few seconds to load!</p>
+                                    <h3 className="overlay-title">Coin Dev</h3>
+                                    <p className="overlay-desc">This application is using public cryptocurrency API to display current price of cryptocurrencies as well as historic data. This app is created using ReactJS and technologies such as Context API, Styled-Components, and Pagination.</p>
                                 
                                 </div>
 
                             <div className="overlay-skill">
                                 <h4 className="overlay-skill-title">Technology Used</h4>
                                 <ul className="app-skills">
-                                    <li className="app-skill">HTML 5</li>
-                                    <li className="app-skill">CSS 3</li>
+                                    <li className="app-skill">REACT</li>
+                                    <li className="app-skill">CONTEXT API</li>
                                     <li className="app-skill">FLEXBOX</li>
-                                    <li className="app-skill">JAVASCRIPT</li>
-                                    <li className="app-skill">TWITTER API</li>
+                                    <li className="app-skill">STYLED COMPONENTS</li>
+                                    <li className="app-skill">COINGECKO API</li>
                                 </ul>
                             </div>
                             <div className="overlay-btns">
-                                <a href="https://github.com/daisuke359/Twitter-Clone" target="_blank" rel="noreferrer" ><button className="app-btn">See the code</button></a>
-                                <a href="https://twitter-api-search.netlify.app/" target="_blank" rel="noreferrer" ><button className="app-btn">Visit the site</button></a>
+                                <a href="https://github.com/daisuke359/coin-dev" target="_blank" rel="noreferrer" ><button className="app-btn">See the code</button></a>
+                                <a href="https://cryptocurrencytrackingapp.netlify.app/" target="_blank" rel="noreferrer" ><button className="app-btn">Visit the site</button></a>
                             </div>
 
                             </div>
@@ -133,7 +133,7 @@ export default function Work() {
                     </WorkItem>
 
                     <WorkItem data-aos="fade-up">
-                        <AppImg className="app-img" src="./linkein_clone.png" alt="" />
+                        <AppImg className="app-img" src="/linkein_clone.png" alt="" />
                         <div className="overlay">
                             <div className="overlay-wrapper">
                                 <div className="overlay-main">
