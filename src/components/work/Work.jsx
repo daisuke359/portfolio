@@ -67,7 +67,7 @@ export default function Work() {
 
                 <div className="work-list">
                     <WorkItem data-aos="fade-up">
-                        <AppImg className="app-img" src="/social-app.png" alt="" />
+                        <AppImg className="app-img" src="./social-app.png" alt="" />
                         
                         <div className="overlay">
                             <div className="overlay-wrapper">
