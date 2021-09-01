@@ -46,7 +46,7 @@ const AppImg = styled.img`
     box-shadow: 9px 7px 21px 1px rgba(0,0,0,0.45);
 
     &:hover {
-        -webkit-filter: brightness(15%);
+        filter: brightness(15%);
         transition: all 0.3s;
     }
 
