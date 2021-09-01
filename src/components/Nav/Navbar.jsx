@@ -65,7 +65,6 @@ export default function Navbar() {
     return (
         <Nav navbar={navbar}>
           <div className="logo-container">
-            <a href="https://github.com/daisuke359" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
           </div>
           <Burger/>
         </Nav>
