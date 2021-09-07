@@ -133,6 +133,36 @@ export default function Work() {
                     </WorkItem>
 
                     <WorkItem data-aos="fade-up">
+                        <AppImg className="app-img" src="/cafe.png" alt="" />
+                        <div className="overlay">
+                            <div className="overlay-wrapper">
+                                <div className="overlay-main">
+                                    <h3 className="overlay-title">Cafe Website</h3>
+                                    <p className="overlay-desc">This is a website for a cafe that I made up. It is fully responsive using media query and flexbox.</p>
+                                </div>
+
+                            <div className="overlay-skill">
+                                <h4 className="overlay-skill-title">Technology Used</h4>
+                                <ul className="app-skills">
+                                    <li className="app-skill">HTML 5</li>
+                                    <li className="app-skill">CSS 3</li>
+                                    <li className="app-skill">JAVASCRIPT</li>
+                                    <li className="app-skill">FLEXBOX</li>
+                                    <li className="app-skill">MEDIA QUERY</li>
+                                    <li className="app-skill">RESPONSIVE DESIGN</li>
+                                </ul>
+                            </div>
+                            <div className="overlay-btns">
+                                <a href="https://github.com/daisuke359/cafe-landing" target="_blank" rel="noreferrer" ><button className="app-btn">See the code</button></a>
+                                <a href="https://cafe-landing.netlify.app" target="_blank" rel="noreferrer" ><button className="app-btn">Visit the site</button></a>
+                            </div>
+
+                            </div>
+                        </div>
+                        
+                    </WorkItem>
+
+                    <WorkItem data-aos="fade-up">
                         <AppImg className="app-img" src="/linkein_clone.png" alt="" />
                         <div className="overlay">
                             <div className="overlay-wrapper">
