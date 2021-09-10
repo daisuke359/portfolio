@@ -73,7 +73,7 @@ export default function Work() {
                             <div className="overlay-wrapper">
                                 <div className="overlay-main">
                                     <h3 className="overlay-title">Social App</h3>
-                                    <p className="overlay-desc">Social media application built with the MERN stack. It allows you to post text and photos, and follow/unfollow other users. The backend for this app is hosted on Heroku and it may take a few seconds to load! Use yui@gmail.com, and password: 123456 to login.</p>
+                                    <p className="overlay-desc">Social media application built with the MERN stack. It allows you to post text and photos, and follow/unfollow other users. The backend for this app is hosted on Heroku and it may take a few seconds to load!</p>
                                 </div>
                             
 
