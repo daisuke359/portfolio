@@ -162,36 +162,6 @@ export default function Work() {
                         
                     </WorkItem>
 
-                    <WorkItem data-aos="fade-up">
-                        <AppImg className="app-img" src="/linkein_clone.png" alt="" />
-                        <div className="overlay">
-                            <div className="overlay-wrapper">
-                                <div className="overlay-main">
-                                    <h3 className="overlay-title">LinkedIn Clone</h3>
-                                    <p className="overlay-desc">This application is similar to the social app but it is using Redux for state management. it also uses firebase for the database and authentication.</p>
-                                
-                                </div>
-
-                            <div className="overlay-skill">
-                                <h4 className="overlay-skill-title">Technology Used</h4>
-                                <ul className="app-skills">
-                                    <li className="app-skill">REACT</li>
-                                    <li className="app-skill">FIREBASE</li>
-                                    <li className="app-skill">FLEXBOX</li>
-                                    <li className="app-skill">REDUX</li>
-                                    <li className="app-skill">MATERIAL-UI</li>
-                                </ul>
-                            </div>
-                            <div className="overlay-btns">
-                                <a href="https://github.com/daisuke359/linkedin-clone" target="_blank" rel="noreferrer" ><button className="app-btn">See the code</button></a>
-                                <a href="https://linkedin-clone-e82bf.web.app/" target="_blank" rel="noreferrer" ><button className="app-btn">Visit the site</button></a>
-                            </div>
-
-                            </div>
-                        </div>
-                        
-                        
-                    </WorkItem>
                 </div>
                 <a href="https://github.com/daisuke359" target="_blank" rel="noreferrer" ><button className="work-btn">See more on GitHub</button></a>
             </div>
