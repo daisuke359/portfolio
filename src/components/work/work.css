@@ -47,7 +47,7 @@
     border-radius: 5px;
     color: #ffffff;
     font-size: 17px;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 25px;
     text-decoration: none;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -58,6 +58,7 @@
     -moz-transition: all 0.2s;
     -ms-transition: all 0.2s;
     -o-transition: all 0.2s;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
 }
 
 .work-btn:hover {
