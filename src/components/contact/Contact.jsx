@@ -30,7 +30,7 @@ export default function Contact() {
     return (
         <section className="contact" id="contact">
             <div className="contact-wrapper">
-                <h3 className="section-title">Contact Me</h3>
+                <h3 className="section-title">CONTACT</h3>
                 <hr className="section-title-underline" />
                 <div className="contact-main">
                     <div data-aos="fade-right" className="contact-main-right">

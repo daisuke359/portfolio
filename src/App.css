@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   width: 100%;
   margin: 0 auto;
 }
@@ -32,13 +32,14 @@ li {
 }
 
 .section-title {
+  letter-spacing: 3px;
   text-align: center;
   padding-top: 90px;
-  font-size: 1.7em;
+  font-size: 2.3em;
 }
 
 .section-title-underline {
-  width: 10%;
+  width: 5%;
   margin: 0 auto;
   border: 2px solid #ffcc00;
   margin-top: 30px;
@@ -47,7 +48,7 @@ li {
 .section-desc {
   text-align: center;
   margin-top: 40px;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 

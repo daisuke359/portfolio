@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 export default function Header() {
     return (
-        <header>
+        <header id="header">
           <Navbar/>
         <div className="header-main">
           <h2 className="header-title">Hi, I'm Daisuke.</h2>

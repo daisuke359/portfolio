@@ -8,7 +8,7 @@ const Nav = styled.div`
     opacity: 0.9;
     display: flex;
     align-items: center;
-    padding: 10px 80px;
+    padding: 10px 60px;
     position: fixed;
     top: 0;
     left: 0;

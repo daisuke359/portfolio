@@ -6,7 +6,7 @@ const Ul = styled.ul`
 list-style-type: none;
 display: flex;
 flex: 4;
-justify-content: space-between;
+justify-content: space-around;
 
 .nav-item {
     padding-bottom: 5px;
@@ -18,6 +18,8 @@ justify-content: space-between;
   }
   
   .nav-item a {
+    font-size: 0.9rem;
+    font-weight: 700;
     text-decoration: none;
     color: white;
     transition: all 0.3s;
@@ -67,12 +69,12 @@ export default function RightNav({open, handleClick}) {
             <Link 
               onClick={handleClick}
               activeClass="active"
-              to="work"
+              to="header"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              >Work</Link>
+              >HOME</Link>
             </li>
             <li className="nav-item">
             <Link
@@ -83,18 +85,18 @@ export default function RightNav({open, handleClick}) {
               smooth={true}
               offset={-70}
               duration={500}
-              >About Me</Link>
+              >ABOUT</Link>
             </li>
             <li className="nav-item">
             <Link
               onClick={handleClick} 
               activeClass="active"
-              to="skill"
+              to="work"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              >Skill</Link>
+              >WORK</Link>
             </li>
             <li className="nav-item">
             <Link
@@ -105,7 +107,7 @@ export default function RightNav({open, handleClick}) {
               smooth={true}
               offset={-70}
               duration={500}
-              >Contact</Link>
+              >CONTACT</Link>
             </li>
           </Ul>
     )
