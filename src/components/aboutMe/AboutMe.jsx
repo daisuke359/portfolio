@@ -17,8 +17,8 @@ export default function AboutMe() {
                 <div className="about-me-main">
                     <div data-aos="fade-up" className="about-me-left">
                         <h4 className="work-title">Get to know me!</h4>
-                        <p className="about-me-desc">My name is Daisuke. I am a <span>Front-End Web developer</span> based in Vancouver! I am passionate about creating interactive web applicaitons and engaging user experience using React.</p>
-                        <p className="about-me-desc">I recently graduated from a Douglas College with diploma degree in <span>Computer Studies an Information Systems💻</span></p>
+                        <p className="about-me-desc">My name is Daisuke. I am a <span>Front-End Web developer</span> based in Vancouver. I am passionate about creating interactive web applicaitons and engaging user experience using React.</p>
+                        <p className="about-me-desc">I recently graduated from a Douglas College with diploma degree in <span>Computer Studies and Information Systems💻</span></p>
                         <p className="about-me-desc">Other than coding, I spend most of my time exploring the city of Vancouver, shooting photos and videos, and trying out new restaurants around the city! And I'm always down for Ramen🍜</p>
                     </div>
                     <div data-aos="fade-up" className="about-me-right">
