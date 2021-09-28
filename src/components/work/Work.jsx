@@ -1,15 +1,8 @@
 import React, { useEffect } from 'react';
 import "./work.css";
-import styled from 'styled-components';
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-
-const WorkItem = styled.div`
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
-`;
 
 export default function Work() {
 
@@ -23,9 +16,8 @@ export default function Work() {
                 <h3 className="section-title">PROJECTS</h3>
                 <hr className="section-title-underline"></hr>
                 <p className="section-desc">Here are the few projects I've worked on recently.</p>
-
                 <div className="work-list">
-                    <WorkItem data-aos="fade-up">
+                    <div className="work-item" data-aos="fade-up">
                         <div className="work-left">
                             <img src="/social.png" alt="" />
                         </div>
@@ -42,14 +34,11 @@ export default function Work() {
                             <a href="https://github.com/daisuke359/social-app" target="_blank" rel="noreferrer" ><button className="app-btn">See the code</button></a>
                             <a href="https://social-app-mern.netlify.app/" target="_blank" rel="noreferrer" ><button className="app-btn">Visit the site</button></a>
                         </div>
-                        
-                    </WorkItem>
-
-                    <WorkItem data-aos="fade-up">
+                    </div>
+                    <div className="work-item" data-aos="fade-up">
                         <div className="work-left">
                             <img src="/crypto.png" alt="" />
                         </div>
-
                         <div className="work-right">
                             <h4 className="work-title">Coin Dev</h4>
                             <p className="work-desc">This application is using public cryptocurrency API to display current price of cryptocurrencies as well as historic price change using Chart.js.</p>
@@ -64,15 +53,11 @@ export default function Work() {
                             <a href="https://github.com/daisuke359/coin-dev" target="_blank" rel="noreferrer" ><button className="app-btn">See the code</button></a>
                             <a href="https://cryptocurrencytrackingapp.netlify.app/" target="_blank" rel="noreferrer" ><button className="app-btn">Visit the site</button></a>
                         </div>
-                        
-                        
-                    </WorkItem>
-
-                    <WorkItem data-aos="fade-up">
+                    </div>
+                    <div className="work-item" data-aos="fade-up">
                         <div className="work-left">
                             <img src="/cafe.png" alt="" />
                         </div>
-
                         <div className="work-right">
                             <h4 className="work-title">Cafe Website</h4>
                             <p className="work-desc">This is a website for a cafe that I made up. It is fully responsive using media query and flexbox.</p>
@@ -87,11 +72,8 @@ export default function Work() {
                             <a href="https://github.com/daisuke359/cafe-landing" target="_blank" rel="noreferrer" ><button className="app-btn">See the code</button></a>
                             <a href="https://cafe-landing.netlify.app" target="_blank" rel="noreferrer" ><button className="app-btn">Visit the site</button></a>
                         </div>
-                        
-                    </WorkItem>
-
+                    </div>
                 </div>
-                <a href="https://github.com/daisuke359" target="_blank" rel="noreferrer" ><button className="work-btn">See more on GitHub</button></a>
             </div>
         </section>
     )

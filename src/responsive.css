@@ -5,19 +5,37 @@
     }
 
     .work-wrapper, .about-me-wrapper, .skill-wrapper, .contact-wrapper {
-        width: 85%;
+        width: 90%;
     }
 
     .section-title {
         padding-top: 60px;
     }
 
-    .overlay {
-        overflow: scroll;
+    .about-me-main {
+        flex-direction: column;
     }
 
-    .overlay-wrapper {
-        width: 80%;
+    .about-me-left, .about-me-right {
+        padding: 0;
+    }
+
+    .about-me-left {
+        margin-bottom: 50px;
+    }
+
+    .work-item {
+        flex-direction: column;
+    }
+
+    .work-left > img {
+        margin-bottom: 50px;
+    }
+
+    .work-right {
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
     }
 
 }
@@ -43,55 +61,12 @@
         width: 90%;
     }
 
-    .overlay-wrapper {
-        position: relative;
-        top: 0;
-        left: 0;
-        transform: none;
+    .work-right {
+        width: 80%;
     }
 
-     .overlay-title {
-        font-size: 20px;
-    }
-    .overlay-desc, .overlay-skill-title, .app-skill, .app-btn {
-        font-size: 0.9em;
-    }
-
-    .about-me-wrapper {
-        margin-bottom: 60px;      
-    }
-
-    .about-me-main {
-        flex-direction: column;
-    }
-
-    .about-img {
-        width: 30%;
-    }
-
-    .about-me-right {
-        margin-top: 30px;
-    }
-
-    .about-me-desc {
-        text-align: center;
-    }
-
-    .skill-logos {
-        margin-top: 40px;
-    }
-
-    .skill-main {
-        flex-direction: column;
-        margin-top: 40px
-    }
-
-    .skill-main-left, .skill-main-right {
-        margin-bottom: 20px;
-    }
-
-    .skill-desc {
-        width: 90%;
+    #work {
+        padding-bottom: 0;
     }
 
     #contact {
@@ -156,12 +131,12 @@
         padding-top: 40px;
     }
 
-    #work {
-        padding-bottom: 50px;
+    .about-me-main {
+        margin-top: 60px;
     }
 
-    .skill-wrapper {
-        padding-bottom: 50px;
+    .work-left > img {
+        margin-bottom: 30px;
     }
 
     .contact-main-left, .contact-main-right {

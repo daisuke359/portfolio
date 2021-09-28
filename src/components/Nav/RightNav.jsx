@@ -34,7 +34,7 @@ justify-content: space-around;
   }
 
   @media only screen and (max-width: 1023px) {
-      z-index: 10;
+    z-index: 10;
     margin-top: 0;
     flex-flow: column;
     justify-content: space-evenly;

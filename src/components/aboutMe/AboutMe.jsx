@@ -15,13 +15,13 @@ export default function AboutMe() {
                 <h3 className="section-title">ABOUT ME</h3>
                 <hr className="section-title-underline" />
                 <div className="about-me-main">
-                    <div data-aos="fade-right" className="about-me-left">
+                    <div data-aos="fade-up" className="about-me-left">
                         <h4 className="work-title">Get to know me!</h4>
                         <p className="about-me-desc">My name is Daisuke. I am a <span>Front-End Web developer</span> based in Vancouver! I am passionate about creating interactive web applicaitons and engaging user experience using React.</p>
                         <p className="about-me-desc">I recently graduated from a Douglas College with diploma degree in <span>Computer Studies an Information Systems💻</span></p>
                         <p className="about-me-desc">Other than coding, I spend most of my time exploring the city of Vancouver, shooting photos and videos, and trying out new restaurants around the city! And I'm always down for Ramen🍜</p>
                     </div>
-                    <div data-aos="fade-left" className="about-me-right">
+                    <div data-aos="fade-up" className="about-me-right">
                         <h4 className="work-title">My Skills</h4>
                         <ul className="my-skills">
                             <li className="my-skill">HTML</li>

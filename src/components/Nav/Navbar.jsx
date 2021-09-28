@@ -30,7 +30,6 @@ const Nav = styled.div`
   }
 
   @media only screen and (max-width: 1023px) {
-    /* padding: 10px 60px; */
     height: 70px;
   }
 
