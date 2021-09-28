@@ -61,6 +61,10 @@
         width: 90%;
     }
 
+    .work-item {
+        margin-bottom: 120px;
+    }
+
     .work-right {
         width: 80%;
     }
@@ -135,8 +139,16 @@
         margin-top: 60px;
     }
 
+    .work-item {
+        margin-bottom: 80px;
+    }
+
     .work-left > img {
         margin-bottom: 30px;
+    }
+
+    .work-right {
+        width: 95%;
     }
 
     .contact-main-left, .contact-main-right {
