@@ -37,11 +37,11 @@ export default function Work() {
                     </div>
                     <div className="work-item" data-aos="fade-up">
                         <div className="work-left">
-                            <img src="/crypto.png" alt="" />
+                            <img src="/coin-dev.png" alt="" />
                         </div>
                         <div className="work-right">
                             <h4 className="work-title">Coin Dev</h4>
-                            <p className="work-desc">This application is using public cryptocurrency API to display current price of cryptocurrencies as well as historic price change using Chart.js.</p>
+                            <p className="work-desc">This application is using public cryptocurrency API to display current price of cryptocurrencies as well as historic price change using Chart.js. Now working on new features such as register, login, and watch list.</p>
                             <ul className="app-skills">
                                 <li className="app-skill">REACT</li>
                                 <li className="app-skill">CONTEXT API</li>
