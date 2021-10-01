@@ -41,7 +41,7 @@ export default function Work() {
                         </div>
                         <div className="work-right">
                             <h4 className="work-title">Coin Dev</h4>
-                            <p className="work-desc">This application is using public cryptocurrency API to display current price of cryptocurrencies as well as historic price change using Chart.js. Now working on new features such as register, login, and watch list.</p>
+                            <p className="work-desc">Cryptocurrency tracking app using third party API and Chart.js. Now working on new features such as register, login, and watch list.</p>
                             <ul className="app-skills">
                                 <li className="app-skill">REACT</li>
                                 <li className="app-skill">CONTEXT API</li>

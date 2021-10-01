@@ -1,6 +1,6 @@
 #work {
     background-color: #fff;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .work-wrapper {
@@ -17,7 +17,7 @@
 .work-item {
     display: flex;
     align-items: center;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .work-left {
