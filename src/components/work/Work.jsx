@@ -19,11 +19,33 @@ export default function Work() {
                 <div className="work-list">
                     <div className="work-item" data-aos="fade-up">
                         <div className="work-left">
+                            <img src="/coin-dev.png" alt="" />
+                        </div>
+                        <div className="work-right">
+                            <h4 className="work-title">Coin Dev</h4>
+                            <p className="work-desc">Cryptocurrency tracking app built with the MERN Stack and third party API.</p>
+                            <ul className="app-skills">
+                                <li className="app-skill">REACT</li>
+                                <li className="app-skill">CONTEXT API</li>
+                                <li className="app-skill">NODE</li>
+                                <li className="app-skill">EXPRESS</li>
+                                <li className="app-skill">MONGO DB</li>
+                                <li className="app-skill">FLEXBOX</li>
+                                <li className="app-skill">STYLED COMPONENTS</li>
+                                <li className="app-skill">COINGECKO API</li>
+                                <li className="app-skill">CHART.JS</li>
+                            </ul>
+                            <a href="https://github.com/daisuke359/coin-dev" target="_blank" rel="noreferrer" ><button className="app-btn">See the code</button></a>
+                            <a href="https://cryptocurrencytrackingapp.netlify.app/" target="_blank" rel="noreferrer" ><button className="app-btn">Visit the site</button></a>
+                        </div>
+                    </div>
+                    <div className="work-item" data-aos="fade-up">
+                        <div className="work-left">
                             <img src="/social.png" alt="" />
                         </div>
                         <div className="work-right">
                             <h4 className="work-title">Social App</h4>
-                            <p className="work-desc">Social media application built with the MERN stack. It allows you to post text and photos, and follow/unfollow other users.</p>
+                            <p className="work-desc">Social media application built with the MERN stack. It allows you to post texts and photos, and follow/unfollow other users.</p>
                             <ul className="app-skills">
                                 <li className="app-skill">REACT</li>
                                 <li className="app-skill">CONTEXT API</li>
@@ -33,25 +55,6 @@ export default function Work() {
                             </ul>
                             <a href="https://github.com/daisuke359/social-app" target="_blank" rel="noreferrer" ><button className="app-btn">See the code</button></a>
                             <a href="https://social-app-mern.netlify.app/" target="_blank" rel="noreferrer" ><button className="app-btn">Visit the site</button></a>
-                        </div>
-                    </div>
-                    <div className="work-item" data-aos="fade-up">
-                        <div className="work-left">
-                            <img src="/coin-dev.png" alt="" />
-                        </div>
-                        <div className="work-right">
-                            <h4 className="work-title">Coin Dev</h4>
-                            <p className="work-desc">Cryptocurrency tracking app using third party API and Chart.js. Now working on new features such as authentication, and watch list.</p>
-                            <ul className="app-skills">
-                                <li className="app-skill">REACT</li>
-                                <li className="app-skill">CONTEXT API</li>
-                                <li className="app-skill">FLEXBOX</li>
-                                <li className="app-skill">STYLED COMPONENTS</li>
-                                <li className="app-skill">COINGECKO API</li>
-                                <li className="app-skill">CHART.JS</li>
-                            </ul>
-                            <a href="https://github.com/daisuke359/coin-dev" target="_blank" rel="noreferrer" ><button className="app-btn">See the code</button></a>
-                            <a href="https://cryptocurrencytrackingapp.netlify.app/" target="_blank" rel="noreferrer" ><button className="app-btn">Visit the site</button></a>
                         </div>
                     </div>
                     <div className="work-item" data-aos="fade-up">
