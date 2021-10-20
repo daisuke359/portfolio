@@ -17,7 +17,6 @@ export default function Contact() {
 
         emailjs.sendForm('service_jzpla0q', 'template_qizv0hr', e.target, 'user_H4w6wAqAL5BCX1BQSAOB9')
         .then((result) => {
-          console.log(result.text);
           toast("Your message has been sent 💌");
         }, (error) => {
           console.log(error.text);
@@ -29,6 +28,16 @@ export default function Contact() {
 
     return (
         <section className="contact" id="contact">
+            <ToastContainer
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover/>
             <div className="contact-wrapper">
                 <h3 className="section-title">CONTACT</h3>
                 <hr className="section-title-underline" />
@@ -57,16 +66,6 @@ export default function Contact() {
                                 <textarea className="message-input" placeholder="message*" name="message" required></textarea>
                             </div>
                             <button type="submit" className="contact-btn">Send Message</button>
-                            <ToastContainer
-                                position="top-left"
-                                autoClose={5000}
-                                hideProgressBar={false}
-                                newestOnTop={false}
-                                closeOnClick
-                                rtl={false}
-                                pauseOnFocusLoss
-                                draggable
-                                pauseOnHover/>
                         </form>
                     </div>
                 </div>
